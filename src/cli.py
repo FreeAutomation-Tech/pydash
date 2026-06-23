@@ -1,5 +1,4 @@
 import argparse
-import sys
 
 from .panels import (
     get_cpu_panel,

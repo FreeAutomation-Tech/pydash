@@ -1,4 +1,3 @@
-import argparse
 from unittest.mock import patch
 
 from src.cli import main

@@ -1,7 +1,6 @@
 import time
 from rich.live import Live
 from rich.layout import Layout
-from rich import print as rprint
 
 from .panels import (
     get_cpu_panel,
