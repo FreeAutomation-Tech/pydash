@@ -36,11 +36,7 @@ def _make_layout() -> Layout:
     return layout
 
 
-HEADER = "\n".join([
-    "[bold cyan]╔══════════════════════════════════════════════════════════════╗[/bold cyan]",
-    "[bold cyan]║[/bold cyan]  [bold yellow]PyDash[/bold yellow] — Terminal System Dashboard  v1.0.0          [bold cyan]║[/bold cyan]",
-    "[bold cyan]╚══════════════════════════════════════════════════════════════╝[/bold cyan]",
-])
+HEADER = "[bold cyan]PyDash v1.0.0 — Terminal System Dashboard[/bold cyan]"
 
 FOOTER = "[dim]Press Ctrl+C to exit • Auto-refresh every 2s[/dim]"
 
