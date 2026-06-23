@@ -29,7 +29,10 @@ def main():
         "command",
         nargs="?",
         default="dash",
-        choices=["dash", "cpu", "mem", "memory", "disk", "net", "network", "ps", "processes", "sys", "system"],
+        choices=[
+            "dash", "cpu", "mem", "memory", "disk",
+            "net", "network", "ps", "processes", "sys", "system",
+        ],
         help="Dashboard or specific panel (default: dash)",
     )
     parser.add_argument(
